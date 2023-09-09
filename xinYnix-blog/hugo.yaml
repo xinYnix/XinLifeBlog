@@ -38,48 +38,48 @@ languages:
       profileMode:
         enabled: true
         title: (〃'▽'〃)
-        subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎光临素履(Sulv)的博客<br/>👇联系方式"
+        subtitle: "XinY思考的地方<br/>👇联系方式"
         # imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
         imageTitle: 
         imageWidth: 150
         imageHeight: 150
         buttons:
-          - name: 👨🏻‍💻技术
+          - name: 👨🏻‍💻 Tech
             url: posts/tech
-          - name: 📕阅读
+          - name: 📕 Reading
             url: posts/read
-          - name: 🏖生活
+          - name: 🏖 Daily
             url: posts/life
       menu:
         main:
           - identifier: search
-            name: 🔍搜索
+            name: Search
             url: search
             weight: 1
           - identifier: home
-            name: 🏠主页
+            name: Home
             url: /
             weight: 2
           - identifier: posts
-            name: 📚文章
+            name: Posts
             url: posts
             weight: 3
           - identifier: archives
-            name: ⏱时间轴
+            name: Timeline
             url: archives/
             weight: 20
           - identifier: tags
-            name: 🔖标签
+            name: 🔖Tags
             url: tags
             weight: 40
           - identifier: about
-            name: 🙋🏻‍♂️关于
+            name: About
             url: about
             weight: 50
-          - identifier: links
-            name: 🤝友链
-            url: links
-            weight: 60
+          # - identifier: links
+          #   name: 🤝links
+          #   url: links
+          #   weight: 60
 
 outputs:
     home:
@@ -90,7 +90,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     # description: "这是一个纯粹的博客......"
-    author: Sulv
+    author: XinY
     # author: ["Me", "You"] # multiple authors
     defaultTheme: auto  # defaultTheme: light or  dark 
     disableThemeToggle: false
@@ -113,23 +113,23 @@ params:
 
     comments: true
     
-    # socialIcons:
-    #     - name: github
-    #       url: "https://github.com/xyming108"
-    #     - name: twitter
-    #       url:  "img/twitter.png"
-    #     - name: facebook
-    #       url: "https://www.facebook.com/profile.php?id=100027782410997"
-    #     - name: instagram
-    #       url: "img/instagram.png"
-    #     - name: QQ
-    #       url: "img/qq.png"
-    #     - name: WeChat
-    #       url: "img/wechat.png"
-    #     - name: email
-    #       url: "mailto:1931559710@qq.com"
-    #     - name: RSS
-    #       url: "index.xml"
+    socialIcons:
+        - name: github
+          url: "https://github.com/xinYnix"
+        - name: twitter
+          url:  "img/twitter.png"
+        # - name: facebook
+        #   url: "https://www.facebook.com/profile.php?id=100027782410997"
+        # - name: instagram
+        #   url: "img/instagram.png"
+        - name: QQ
+          url: "img/qq.png"
+        - name: WeChat
+          url: "img/wechat.png"
+        - name: email
+          url: "mailto:604638600@qq.com"
+        # - name: RSS
+        #   url: "index.xml"
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
@@ -137,10 +137,10 @@ params:
     #     appendFilePath: true # to append file path to Edit link
 
     label:
-      text: "Sulv's Blog"
+      text: "Xiny's Blog"
       #icon: "img/Q.gif"
       # icon: "https://www.sulvblog.cn/Q.gif"
-      iconHeight: 35
+      iconHeight: 28
 
     # analytics:  #谷歌分析
     #     google:
