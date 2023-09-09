@@ -1,0 +1,6 @@
+[submodule "xinYnix-blog/themes/PaperMod"]
+	path = xinYnix-blog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "xinYnix-blog/themes/hugo-book"]
+	path = xinYnix-blog/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
